@@ -1,0 +1,25 @@
+GET http://localhost:3000/players/
+###
+
+GET http://localhost:3000/players/4/
+###
+
+PUT http://localhost:3000/players/4/
+Content-Type: application/json
+
+{
+    "playerName": "Bhaskar"
+}
+###
+
+GET http://localhost:3000/matches/4/
+###
+
+GET http://localhost:3000/players/6/matches
+###
+
+GET http://localhost:3000/matches/1/players/
+###
+
+GET http://localhost:3000/players/4/playerScores
+###
